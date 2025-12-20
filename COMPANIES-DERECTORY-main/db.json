@@ -1,0 +1,39 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "TCS",
+      "industry": "Software",
+      "location": "Hyderabad",
+      "website": "https://tcs.com"
+    },
+    {
+      "id": 2,
+      "name": "Infosys",
+      "industry": "Software",
+      "location": "Bengaluru",
+      "website": "https://infosys.com"
+    },
+    {
+      "id": 3,
+      "name": "Aurobindo Pharma",
+      "industry": "Healthcare",
+      "location": "Hyderabad",
+      "website": "https://aurobindo.com"
+    },
+    {
+      "id": 4,
+      "name": "Mahindra Logistics",
+      "industry": "Logistics",
+      "location": "Mumbai",
+      "website": "https://mahindralogistics.com"
+    },
+    {
+      "id": 5,
+      "name": "Adani Construction",
+      "industry": "Construction",
+      "location": "Delhi",
+      "website": "https://adani.com"
+    }
+  ]
+}
