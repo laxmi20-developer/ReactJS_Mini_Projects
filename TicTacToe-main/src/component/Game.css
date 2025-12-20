@@ -1,0 +1,54 @@
+body{
+    background: rgba(0, 0, 0, 0.795) url("../assets/download.jpeg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* opacity: 0.5; */
+}
+h1{
+    text-align: center;
+}
+.game{
+    border: 2px dashed rgba(255, 255, 255, 0.317);
+    padding: 40px;
+    border-radius: 20px;
+
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 25px;
+    background-color: blue;
+    padding: 3px;
+}
+button{
+    background-color: rgba(128, 128, 128, 0.767);
+    color: white;
+    padding: 5px;
+
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:300px;
+}
+.cell{
+    background-color: rgba(74, 68, 152, 0.824);
+    border:2px solid rgba(0, 0, 0, 0.445);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+}
