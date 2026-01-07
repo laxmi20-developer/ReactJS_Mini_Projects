@@ -1,16 +1,23 @@
-# React + Vite
+Task Title: Companies Directory – Frontend Development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Objective:
+To design and implement a React-based frontend application that consumes APIs and displays “Company” data with filtering features.
+Task Details:
+Frontend Development (React.js)
+Build a responsive UI using React.js.
+Display the list of companies in a table or card layout.
+Implement filter controls (dropdowns, search inputs, etc.) to filter companies by attributes (e.g., name, location, industry).
+Ensure good user experience with proper loading/error states.
+Use state management (React hooks / Context API / Redux) where needed.
+API Integration
 
-Currently, two official plugins are available:
+Step 1: Install JSON Server
+npm install json-server --save-dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Step 2: Create db.json
 
-## React Compiler
+Create a file in your project root:
+npx json-server --watch db.json --port 3001
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Server runs at:
+http://localhost:3001
