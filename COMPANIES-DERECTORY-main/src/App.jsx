@@ -165,7 +165,7 @@ export default function App() {
     setLoading(true);
 
     // Step 1 → Get all data
-    const res = await axios.get("http://localhost:5000/companies");
+    const res = await axios.get("http://localhost:3001/companies");
     let data = res.data;
 
     // Step 2 → Case-insensitive search
